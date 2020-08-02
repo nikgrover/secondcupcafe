@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host_graph"
+    app:startDestination="@id/order">
+    <fragment
+        android:id="@+id/order"
+        android:name="com.example.myapplication.order"
+        android:label="fragment_order"
+        tools:layout="@layout/fragment_order" />
+    <fragment
+        android:id="@+id/cart"
+        android:name="com.example.myapplication.cart"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/cofeeSec"
+        android:name="com.example.myapplication.CofeeSec"
+        android:label="fragment_cofee_sec"
+        tools:layout="@layout/fragment_cofee_sec" />
+</navigation>
